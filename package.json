@@ -1,0 +1,33 @@
+{
+  "name": "is-it-oss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "build": "tsc",
+    "tdd": "nodemon --ext ts --exec 'tsc && mocha *.test.js' || echo test-failed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@types/body-parser": "0.0.29",
+    "@types/chai": "^3.4.28",
+    "@types/express": "^4.0.29",
+    "@types/lodash": "0.0.27",
+    "@types/mocha": "^2.2.27",
+    "@types/node": "^4.0.29",
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2",
+    "typescript": "^2.1.0-dev.20160715"
+  }
+}

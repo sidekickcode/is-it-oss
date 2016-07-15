@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es6",
+    "types": [
+      "node",
+      "mocha"
+    ],
+    "strictNullChecks": true,
+    "noImplicitAny": true
+  }
+}
